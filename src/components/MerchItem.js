@@ -9,13 +9,13 @@ function MerchItem(props){
       <h3>{props.description}</h3>
       <h3>{props.quantity}</h3>
     </React.Fragment>
-  )
+  );
 }
 
-MerchItem.PropTypes = {
-  name: PropTypes.string,
+MerchItem.propTypes = {
+  name: PropTypes.string.isRequired,
   description: PropTypes.string,
-  quantity: PropTypes.number
+  quantity: PropTypes.number.isRequired
 };
 
 export default MerchItem;

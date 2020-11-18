@@ -1,10 +1,12 @@
 import React from 'react';
 import PropTypes from "prop-types";
+import MerchItem from "./MerchItem";
 
 function MerchCatalogue(props){
   return(
     <React.Fragment>
-      {props.merchCatalogue.map((merchItem, index) =>
+      <h3>Placeholder catalogue</h3>
+      {props.merchItemList.map((merchItem, index) =>
       <MerchItem name = {merchItem.name}
         description = {merchItem.description}
         quantity = {merchItem.quantity}

@@ -1,7 +1,10 @@
 import React from 'react';
 import PropTypes from "prop-types";
 import MerchItem from "./MerchItem";
-import Scarf from "../src/Img/scarf.png"
+import Scarf from "./../../src/Img/scarf.png";
+import Hat from "./../../src/Img/hat.png"
+import Photo from "./../../src/Img/photo.jpg"
+
  
 
 const MerchCatalogueItems = [
@@ -9,17 +12,19 @@ const MerchCatalogueItems = [
     name : "Scarf",
     description : "Soft and fuzy",
     quantity : 4,
-    image:{Scarf} 
+    image: Scarf 
   },
   {
     name: "Hat",
     description:"It covers your head ",
-    quantity : 16
+    quantity : 16,
+    image: Hat
   },
   {
     name : "Profile picture",
     description : "Put this on your mantle",
-    quantity : 23
+    quantity : 23,
+    image: Photo
   }
 ]
 

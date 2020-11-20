@@ -20,12 +20,21 @@
   display: block;
 }
 
+.product-list-item-container {
+  border: solid 2px #3e3542;
+  font-size: 0;
+  margin: 5%;
+  width: 25%;
+  position: relative;
+  padding-bottom: 10px;
+  display: block;
+}
+
 .product-list-image-container {
   border: solid 2px #3e3542;
   font-size: 0;
-  margin: 0;
-  overflow: hidden;
-  width: 100%;
+  margin: 5%;
+  width: 90%;
 }
 
 

@@ -13,8 +13,8 @@ function MerchItem(props){
   }
   return(
     <React.Fragment>
-      <div class="product-list-image-container">
-        <h3>{props.image}</h3>
+      <div class="product-list-item-container">
+        <img class="product-list-image-container" src={props.image}></img>
         <h3>{props.name}</h3>
         <h3>{props.description}</h3>
         <h3>{props.quantity}</h3>
@@ -26,7 +26,8 @@ function MerchItem(props){
 MerchItem.propTypes = {
   name: PropTypes.string.isRequired,
   description: PropTypes.string,
-  quantity: PropTypes.number.isRequired
+  quantity: PropTypes.number.isRequired,
+  image: PropTypes.string
 };
 
 export default MerchItem;
